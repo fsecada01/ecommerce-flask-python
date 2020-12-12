@@ -48,3 +48,11 @@ whole project into 3 flows-
         - CRUDE
     4. Users
         - Read (view-only)
+
+
+# Dev Roadmap for Fork
+1. Rebase using Flask Blueprints (reduce complexity + containerize functionality across micro-apps)
+2. Remove raw SQL from querying; implement Flask SQLA + Mixins for querying
+3. Implement Vue JS for frontend
+4. Remove custom JS for form sanitation (should be handled via backend)
+5. Integrate Stripe for checkouts.

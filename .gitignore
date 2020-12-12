@@ -108,3 +108,7 @@ ecommerce/__init__.py
 db.yaml
 ecommerce/__init__.py
 db.yaml
+
+
+# Utility scripts
+*.bat
